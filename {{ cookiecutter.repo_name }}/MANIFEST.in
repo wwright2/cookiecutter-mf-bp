@@ -1,0 +1,14 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include Changelog
+include LICENSE
+include MANIFEST.in
+include README.rst
+include requirements-test.txt
+include requirements.txt
+include setup.cfg
+
+recursive-include doc *.py *.rst
+
+prune .venv
+global-exclude __pycache__ *.py[cod]
